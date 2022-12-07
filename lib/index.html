@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/reset.css">
+    <link rel="stylesheet" href="lib/styles.css">
+    <title>DrivenEats</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>DrivenEats</h1>
+                <h2>Sua comida em 6 minutos</h2>
+            </div>
+        </header>
+
+        <main>
+            <div id="pratos" class="prato">
+                <h1 class="h1-prato">Primeiro, seu prato</h1>
+                <div class="section-prato">
+                <div id="frango" onclick="prato(this)" class="card-prato">
+                    <div class="img-card">
+                        <img src="lib/imgs/frango_yin_yang 1.png" alt="">
+                    </div>
+                    <h1>Frango Yin Yang</h1>
+                    <h2>Um pouco de batata,</h2>
+                    <h2>um pouco de salada</h2>
+                    <div class="price">
+                        <h1 value="14.90" >R$ 14,90</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                </div>
+                <div id="arroz-feijao" onclick="prato(this)" class="card-prato">
+                    <div class="img-card">
+                        <img src="lib/imgs/arroz-feijao.webp" alt="">
+                    </div>
+                    <h1>Arroz e feijão</h1>
+                    <h2>Um pouco de arroz,</h2>
+                    <h2>feijão e alface</h2>
+                    <div class="price">
+                        <h1 class="precinho" value="12.00">R$ 12,00</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                </div>
+                <div id="macarrao" onclick="prato(this)" class="card-prato">
+                    <div class="img-card">
+                        <img src="lib/imgs/macarrao.jpg" alt="">
+                    </div>
+                    <h1>Macarrão</h1>
+                    <h2>Macarrão, carne,</h2>
+                    <h2>molho de tomate</h2>
+                    <div class="price">
+                        <h1 value="4.50">R$ 4,50</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                </div>
+                <div id="arroz-temp" onclick="prato(this)" class="card-prato">
+                    <div class="img-card">
+                        <img src="lib/imgs/arroz-temperado-3.webp" alt="">
+                    </div>
+                    <h1>Arroz temperado</h1>
+                    <h2>Cenoura, arroz</h2>
+                    <h2>um pouco de salada</h2>
+                    <div class="price">
+                        <h1 value="24.90">R$ 24,90</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                </div>
+                <div id="sopa" onclick="prato(this)" class="card-prato">
+                    <div class="img-card">
+                        <img src="lib/imgs/receita-de-sopa.webp" alt="">
+                    </div>
+                    <h1>Sopa de macaco</h1>
+                    <h2>Macaco, batata</h2>
+                    <h2>vinagre, tomate</h2>
+                    <div class="price">
+                        <h1 value="14.90">R$ 14,90</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="refri">
+                <h1 class="h1-refri">Agora, sua bebida</h1>
+                <div class="section-refri">
+                    <div id="coca" onclick="bebida(this)" class="card-refri">
+                    <div class="img-card">
+                        <img src="lib/imgs/coquinha_gelada 1.png" alt="">
+                    </div>
+                    <h1>Coquinha gelada</h1>
+                    <h2>Lata 350ml</h2>
+                    <div class="price">
+                        <h1 value="4.90">R$ 4,90</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                    </div>
+                    <div id="pepsi" onclick="bebida(this)" class="card-refri">
+                    <div class="img-card">
+                        <img src="lib/imgs/pepsi.webp" alt="">
+                    </div>
+                    <h1>Pepsi gelada</h1>
+                    <h2>Lata 350ml</h2>
+                    <div class="price">
+                        <h1 value="2.80">R$ 2,80</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                    </div>
+                    <div id="sprite" onclick="bebida(this)" class="card-refri">
+                    <div class="img-card">
+                        <img src="lib/imgs/refrigerante_sprite-_lata_350_ml_azougue_carnes_na_brasa_riomar_kennedy_online.png" alt="">
+                    </div>
+                    <h1>Sprite gelada</h1>
+                    <h2>Lata 750ml</h2>
+                    <div class="price">
+                        <h1 value="14.90">R$ 14,90</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                    </div>
+                    <div id="guarana" onclick="bebida(this)" class="card-refri">
+                    <div class="img-card">
+                        <img src="lib/imgs/guarana.webp" alt="">
+                    </div>
+                    <h1>Guarana gelada</h1>
+                    <h2>Lata 350ml</h2>
+                    <div class="price">
+                        <h1 value="5.80">R$ 5,80</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                    </div>
+                    <div id="fanta" onclick="bebida(this)" class="card-refri">
+                    <div class="img-card">
+                        <img src="lib/imgs/refrigerante-fanta-laranja-lata-350ml-6eb.jpg" alt="">
+                    </div>
+                    <h1>Fanta gelada</h1>
+                    <h2>Lata 350ml</h2>
+                    <div class="price">
+                        <h1 value="3.50">R$ 3,50</h1>
+                        <img class="check" src="lib/imgs/Vector.svg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sobremesa">
+                <h1 class="h1-sobremesa">Por fim, sua sobremesa</h1>
+                <div class="section-sobremesa">
+                    <div id="pudim" onclick="sobremesa(this)" class="card-sobremesa">
+                        <div class="img-card">
+                            <img src="lib/imgs/pudim 2.png" alt="">
+                        </div>
+                        <h1>Pudim</h1>
+                        <h2>Apenas pudim</h2>
+                        <div class="price">
+                            <h1 value="7.90">R$ 7,90</h1>
+                            <img class="check" src="lib/imgs/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="petit" onclick="sobremesa(this)" class="card-sobremesa">
+                        <div class="img-card">
+                            <img src="lib/imgs/petit-gateau.webp" alt="">
+                        </div>
+                        <h1>Petit-gateau</h1>
+                        <h2>petit-gateau</h2>
+                        <div class="price">
+                            <h1 value="25.85">R$ 25,85</h1>
+                            <img class="check" src="lib/imgs/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="bolo" onclick="sobremesa(this)" class="card-sobremesa">
+                        <div class="img-card">
+                            <img src="lib/imgs/bolo-chocolate-simples-1.jpg" alt="">
+                        </div>
+                        <h1>Bolo De Chocolate</h1>
+                        <h2>Bolo de chocolate</h2>
+                        <div class="price">
+                            <h1 value="11.90">R$ 11,90</h1>
+                            <img class="check" src="lib/imgs/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="sorvete" onclick="sobremesa(this)" class="card-sobremesa">
+                        <div class="img-card">
+                            <img src="lib/imgs/Três-tipos-e-sabores-de-sorvete-diferentes-1.jpg.webp" alt="">
+                        </div>
+                        <h1>Sorvete</h1>
+                        <h2>Sorvetinho</h2>
+                        <div class="price">
+                            <h1 value="17.90">R$ 17,90</h1>
+                            <img class="check" src="lib/imgs/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="pizza" onclick="sobremesa(this)" class="card-sobremesa">
+                        <div class="img-card">
+                            <img src="lib/imgs/pizza.webp" alt="">
+                        </div>
+                        <h1>Pizza doce</h1>
+                        <h2>Pizza com M&M</h2>
+                        <div class="price">
+                            <h1 value="70.20">R$ 70,20</h1>
+                            <img class="check" src="lib/imgs/Vector.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </main>
+
+        <footer>
+            <button id="vazio" class="btn selecionado">
+                <h2>Selecione os 3 itens</h2>               
+                <h2>para fechar o pedido</h2>
+            </button>
+
+            <button id="fechado" onclick="enough()" class="btn fechado display-none">
+                <h2>Fechar pedido</h2>                 
+            </button>
+        </footer>
+    </div>
+
+
+    <pop-ups id="popUp" class="display-none">
+        <div class="enough">
+            <div class="margin">
+                <div class="title-enough">
+                    <h1>Comfirmar pedido</h1>
+                    <img onclick="closedPopup()" class="closed-btn" src="lib/imgs/close-svgrepo-com.svg" alt="">
+                </div>
+                <div class="nome">
+                    <h2>Nome :</h2>
+                    <input Class="nameInput" type="text">
+                </div>
+                <div class="endereco">
+                    <h2>Endereço :</h2>
+                    <input class="enderecoInput" type="text">
+                </div>
+                <div class="total">
+                    <h1>Total : </h1>
+                    <h1 class="valor">111</h1>
+                </div>
+                <div onclick="inputCheck()" class="finalizar">
+                    <h2>Finalizar</h2>
+                </div>
+            </div>
+        </div>
+    </pop-ups>   
+
+
+
+
+
+
+    <script src="lib/script.js"></script>
+</body>
+</html>
